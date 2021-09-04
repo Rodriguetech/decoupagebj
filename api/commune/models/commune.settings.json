@@ -14,15 +14,16 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "departement": {
       "via": "communes",
       "model": "departement"
     },
-    "villes": {
-      "via": "commune",
-      "collection": "ville"
+    "quartiers": {
+      "collection": "quartier",
+      "via": "commune"
     }
   }
 }

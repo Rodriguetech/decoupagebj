@@ -543,7 +543,7 @@
                 "departement": {
                   "type": "string"
                 },
-                "villes": {
+                "quartiers": {
                   "type": "array",
                   "items": {
                     "type": "string"

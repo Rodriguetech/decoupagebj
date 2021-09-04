@@ -526,7 +526,7 @@
           "name": {
             "type": "string"
           },
-          "ville": {
+          "commune": {
             "required": [
               "id",
               "name"
@@ -538,7 +538,7 @@
               "name": {
                 "type": "string"
               },
-              "commune": {
+              "departement": {
                 "type": "string"
               },
               "quartiers": {
@@ -572,7 +572,7 @@
           "name": {
             "type": "string"
           },
-          "ville": {
+          "commune": {
             "type": "string"
           },
           "published_at": {

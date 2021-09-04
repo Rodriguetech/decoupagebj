@@ -15,9 +15,9 @@
       "type": "string",
       "required": true
     },
-    "ville": {
+    "commune": {
       "via": "quartiers",
-      "model": "ville"
+      "model": "commune"
     }
   }
 }

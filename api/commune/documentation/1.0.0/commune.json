@@ -555,7 +555,7 @@
               }
             }
           },
-          "villes": {
+          "quartiers": {
             "type": "array",
             "items": {
               "required": [
@@ -571,12 +571,6 @@
                 },
                 "commune": {
                   "type": "string"
-                },
-                "quartiers": {
-                  "type": "array",
-                  "items": {
-                    "type": "string"
-                  }
                 },
                 "published_at": {
                   "type": "string"
@@ -607,7 +601,7 @@
           "departement": {
             "type": "string"
           },
-          "villes": {
+          "quartiers": {
             "type": "array",
             "items": {
               "type": "string"
