@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quartiers",
+      "handler": "quartier.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quartiers/count",
+      "handler": "quartier.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quartiers/:id",
+      "handler": "quartier.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/quartiers",
+      "handler": "quartier.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quartiers/:id",
+      "handler": "quartier.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quartiers/:id",
+      "handler": "quartier.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

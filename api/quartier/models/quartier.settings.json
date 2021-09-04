@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quartiers",
+  "info": {
+    "name": "quartier"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
