@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "communes",
   "info": {
-    "name": "commune"
+    "name": "commune",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -12,11 +13,16 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "departement": {
       "via": "communes",
       "model": "departement"
+    },
+    "villes": {
+      "collection": "ville",
+      "via": "commune"
     }
   }
 }

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "departements",
+  "collectionName": "villes",
   "info": {
-    "name": "departement",
-    "description": ""
+    "name": "ville"
   },
   "options": {
     "increments": true,
@@ -16,9 +15,9 @@
       "type": "string",
       "required": true
     },
-    "communes": {
-      "via": "departement",
-      "collection": "commune"
+    "commune": {
+      "via": "villes",
+      "model": "commune"
     }
   }
 }
