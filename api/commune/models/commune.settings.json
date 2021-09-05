@@ -22,8 +22,8 @@
       "model": "departement"
     },
     "quartiers": {
-      "collection": "quartier",
-      "via": "commune"
+      "via": "commune",
+      "collection": "quartier"
     }
   }
 }
