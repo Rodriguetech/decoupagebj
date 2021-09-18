@@ -1,3 +1,5 @@
-# Strapi application
+# Decoupage Bj
 
-A quick description of your strapi application
+Lien d'accès à la documantation
+
+https://decoupagebj.herokuapp.com/documentation/v1.0.0#/
